@@ -1,3 +1,8 @@
+
+## Install
+Install the package tf2onnx.
+ `pip install tf2onnx`
+
 ## Keras2Onnx
 Convert from a Keras model .h5 to a Barracuda model .onnx
 
@@ -13,6 +18,6 @@ Convert from a Keras model .h5 to a Barracuda model .onnx
 
  Finally we introduce the following command:
  
-  `>> python -m tf2onnx.convert --opset 10 --fold_const --saved-model [PATH of saved_model folder]  --output [PATH where we will store the model]\{name}.onnx`
+  `>> python -m tf2onnx.convert --opset 10 --saved-model [PATH of saved_model folder]  --output [PATH where we will store the model]\{name}.onnx`
 
  
